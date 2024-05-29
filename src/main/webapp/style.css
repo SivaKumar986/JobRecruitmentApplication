@@ -1,0 +1,118 @@
+@charset "ISO-8859-1";
+
+table{
+	text-align:center;
+	
+}
+.top{
+	border:2px solid white;
+	width:100%
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=number],input[type=email],select,input[type=date]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus,input[type=email] :focus{
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit button */
+input[type=submit]{
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+input[type=submit]{
+  opacity: 1;
+}
+#success{
+	text-align:center;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+ 
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 50px;
+      text-align:center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+  text-shadow:    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+ 
+}
+
+.header h1 {
+  font-size: 50px;
+}
+table, th, td {
+
+  border-collapse: collapse;
+}
+
+table{
+  margin-left: auto; 
+  margin-right: auto;
+}
+div,form{
+	  border: 5px solid black;
+	  width:100%;
+}
+label{
+	font-size:20px;
+	font-weight:bold;
+	
+}
+
+option{
+background-color:aqua;
+  font-family:algerian}
